@@ -16,9 +16,7 @@ public class Checkout {
     
     private String description;
     private int quantity;
-    private double price;
-    private double subprice;
-    private double totalprice;
+    
     
     public String getDescription()
     {
@@ -40,23 +38,5 @@ public class Checkout {
         this.quantity = quantity;
     }
     
-    public double getprice()
-    {
-        return price;
-    }
     
-    public void setprice(double price)
-    {
-        this.price = price;
-    }
-    
-    public double gettotalprice()
-    {
-        return totalprice;
-    }
-    
-    public void settotalprice(double totalprice)
-    {
-        this.totalprice = totalprice;
-    }
 }
